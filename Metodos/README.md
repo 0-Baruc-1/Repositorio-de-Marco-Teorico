@@ -1,9 +1,20 @@
 # Segmentacion-de-heridas
 Tesis segmentación y estimación de heridas crónicas con procesamiento de imágenes usando métodos tradicionales
 # Marco teórico
+
+## Pixel:
+
+Un píxel, abreviatura de "elemento de imagen" en inglés (picture element), es la unidad más pequeña de una imagen digital o de pantalla. Es un punto individual en una cuadrícula bidimensional que representa un color o una parte de una imagen. Los píxeles son los bloques fundamentales de construcción de imágenes digitales y se utilizan para representar todo, desde texto y gráficos hasta fotografías y videos en formatos digitales.
+
+Cada píxel en una imagen digital contiene información sobre su color, que puede expresarse mediante valores numéricos, como los componentes de color rojo, verde y azul (RGB) en imágenes en color. En imágenes en blanco y negro, un píxel puede representar niveles de gris en una escala de 0 (negro) a 255 (blanco).
+
+La resolución de una imagen se mide en términos de la cantidad de píxeles en ancho y alto, como "1920x1080", que indica una imagen de 1920 píxeles de ancho por 1080 píxeles de alto. Cuanto mayor sea la cantidad de píxeles por unidad de área en una imagen, mayor será su calidad y nitidez cuando se visualice o imprima. Los monitores, pantallas de teléfonos, cámaras digitales y otros dispositivos visuales utilizan matrices de píxeles para crear representaciones visuales de información.
+
 ## Imagen Digital: 
 Una imagen en el procesamiento de imágenes es una representación digital que se almacena en la memoria de una computadora. Cada píxel en la imagen se representa mediante números, donde los números pueden corresponder a colores (en imágenes a color) o niveles de gris (en imágenes en blanco y negro o en escala de grises).
 
+## Matriz de Píxeles: 
+Una imagen se organiza en una cuadrícula bidimensional de píxeles. Cada píxel tiene una posición única en la matriz y se caracteriza por su valor numérico. La matriz de píxeles es esencial para el procesamiento y análisis de imágenes, ya que permite aplicar algoritmos y operaciones matemáticas para modificar o extraer información de la imagen.
 
 ### Cómo cargar una imagen en OpenCV
 Para cargar una imagen en OpenCV en Python, podemos utilizar el siguiente código [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cargar%20imagen.py)
@@ -13,10 +24,6 @@ La resolución de una imagen se refiere a la cantidad de píxeles que contiene. 
 
 ### Como cambiar la resolución en OpenCv
 Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el siguiente código [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cambiar%20resolucion.py)
-
-
-## Matriz de Píxeles: 
-Una imagen se organiza en una cuadrícula bidimensional de píxeles. Cada píxel tiene una posición única en la matriz y se caracteriza por su valor numérico. La matriz de píxeles es esencial para el procesamiento y análisis de imágenes, ya que permite aplicar algoritmos y operaciones matemáticas para modificar o extraer información de la imagen.
 
 ## Formatos de archivos de imagen compatibles
 
