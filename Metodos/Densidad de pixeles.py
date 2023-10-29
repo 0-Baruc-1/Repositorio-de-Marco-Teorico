@@ -1,7 +1,7 @@
 import cv2
 
 # Cargar la imagen
-ruta_imagen = 'ruta/a/tu/imagen.jpg'
+ruta_imagen = R"C:\Users\Kevin\Documents\train\images\0011.png"
 imagen = cv2.imread(ruta_imagen)
 
 # Verificar si la carga de la imagen fue exitosa

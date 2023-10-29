@@ -1,7 +1,7 @@
 import cv2
 
 # Cargar la imagen
-ruta_imagen = R"C:\Users\Kevin\Documents\train\images\0011.png"
+ruta_imagen = R"C:\Users\Kevin\Desktop\lena.png"
 imagen = cv2.imread(ruta_imagen)
 
 # Verificar si la carga de la imagen fue exitosa
@@ -13,7 +13,7 @@ else:
     print(f"Resolución original: {ancho}x{alto}")
 
     # Definir la nueva resolución deseada
-    nueva_resolucion = (1024, 1024)  # Cambiar a 1024x1024
+    nueva_resolucion = (624, 624)  # Cambiar a 620x620
 
     # Redimensionar la imagen a la nueva resolución
     imagen_redimensionada = cv2.resize(imagen, nueva_resolucion)
