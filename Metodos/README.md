@@ -30,11 +30,11 @@ Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el sigu
 <div style="display: flex; justify-content: space-between;">
     <div style="flex: 1; padding: 10px;">
         <p align="center">Imagen con resolución de 512x512</p>
-        <p align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="512"></p>
+        <p align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="100"></p>
     </div>
     <div style="flex: 1; padding: 10px;">
         <p align="center">Imagen con resolución cambiada a 624x624</p>
-        <p align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_redimensionada.png" alt="Imagen de Ejemplo" width="624"></p>
+        <p align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_redimensionada.png" alt="Imagen de Ejemplo" width="100"></p>
     </div>
 </div>
 
