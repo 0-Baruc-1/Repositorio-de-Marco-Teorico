@@ -16,14 +16,23 @@ Una imagen en el procesamiento de imágenes es una representación digital que s
 ## Matriz de Píxeles: 
 Una imagen se organiza en una cuadrícula bidimensional de píxeles. Cada píxel tiene una posición única en la matriz y se caracteriza por su valor numérico. La matriz de píxeles es esencial para el procesamiento y análisis de imágenes, ya que permite aplicar algoritmos y operaciones matemáticas para modificar o extraer información de la imagen.
 
+## OpenCV
+
 ### Cómo cargar una imagen en OpenCV
 Para cargar una imagen en OpenCV en Python, podemos utilizar el siguiente código de [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cargar%20imagen.py)
 
 ## Resolución: 
 La resolución de una imagen se refiere a la cantidad de píxeles que contiene. Una imagen de alta resolución tiene más píxeles y, por lo tanto, puede mostrar detalles más finos que una imagen de baja resolución.
 
-### Como cambiar la resolución en OpenCv
+### Como cambiar la resolución
 Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el siguiente código de [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cambiar%20resolucion.py)
+
+### Como calcular la densidad de pixeles
+
+Dimensiones de la imagen: 512x512
+Área de la imagen: 262144 píxeles cuadrados
+Número total de píxeles: 262144 píxeles
+Densidad de píxeles: 1.00 píxeles por unidad de área
 
 - **Ejemplo**:
 
