@@ -25,6 +25,10 @@ La resolución de una imagen se refiere a la cantidad de píxeles que contiene. 
 ### Como cambiar la resolución en OpenCv
 Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el siguiente código [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cambiar%20resolucion.py)
 
+- **Ejemplo**
+![Imagen de Ejemplo](https://www.ejemplo.com/imagen.jpg)
+
+
 ## Formatos de archivos de imagen compatibles
 
 OpenCV es compatible con varios formatos de imagen comunes. Algunos formatos requieren bibliotecas auxiliares de terceros para su soporte. Además, la versión 3.0 de OpenCV incluye un controlador para formatos respaldados por la Biblioteca de Abstracción de Datos Geográficos (GDAL), aunque su compatibilidad en Windows aún no ha sido ampliamente probada. En sistemas operativos como Windows y OS X, los códecs que vienen con OpenCV se utilizan de manera predeterminada, mientras que Linux busca códecs instalados en el sistema.
