@@ -25,31 +25,31 @@ OpenCV es compatible con varios formatos de imagen comunes. Algunos formatos req
 ### **Formatos soportados por OpenCV**:
 
 - **Windows bitmaps**: 
-  - Es un formato de archivo de imagen utilizado principalmente en el sistema operativo Windows. Es conocido por su simplicidad y por ser ampliamente reconocido en varias aplicaciones de Windows.
+  Es un formato de archivo de imagen utilizado principalmente en el sistema operativo Windows. Es conocido por su simplicidad y por ser ampliamente reconocido en varias aplicaciones de Windows.
 
 - **Portable image formats**: 
-  - Estos son formatos de imagen simplificados que son parte de la familia Netpbm. Se dividen en:
+  Estos son formatos de imagen simplificados que son parte de la familia Netpbm. Se dividen en:
     - **PBM (Portable BitMap)**: Representa una imagen en blanco y negro.
     - **PGM (Portable GrayMap)**: Representa imágenes en escala de grises.
     - **PPM (Portable PixMap)**: Representa imágenes en color.
 
 - **Sun rasters**: 
-  - Es un formato de archivo de imagen desarrollado por Sun Microsystems y se utiliza principalmente en Solaris (un sistema operativo Unix). Se caracteriza por ser simple y no comprimido.
+  Es un formato de archivo de imagen desarrollado por Sun Microsystems y se utiliza principalmente en Solaris (un sistema operativo Unix). Se caracteriza por ser simple y no comprimido.
 
 ### **Formatos que necesitan bibliotecas auxiliares**:
 
 - **JPEG (Joint Photographic Experts Group)**: 
-  - Es un método ampliamente utilizado para la compresión de imágenes fotográficas. Es adecuado para imágenes a color y para imágenes en escala de grises.
+  Es un método ampliamente utilizado para la compresión de imágenes fotográficas. Es adecuado para imágenes a color y para imágenes en escala de grises.
 
 - **JPEG 2000**: 
-  - Es una versión mejorada del formato JPEG estándar. Ofrece una mejor calidad de imagen y una mayor eficiencia de compresión que el JPEG tradicional.
+  Es una versión mejorada del formato JPEG estándar. Ofrece una mejor calidad de imagen y una mayor eficiencia de compresión que el JPEG tradicional.
 
 - **Portable Network Graphics (PNG)**: 
-  - Es un formato de archivo de imagen que utiliza una compresión sin pérdida para mantener la calidad de la imagen. Es el formato recomendado para imágenes que requieren transparencia.
+  Es un formato de archivo de imagen que utiliza una compresión sin pérdida para mantener la calidad de la imagen. Es el formato recomendado para imágenes que requieren transparencia.
 
 - **TIFF (Tagged Image File Format)**: 
-  - Es un formato de archivo de imagen flexible que se utiliza para manejar imágenes y datos dentro de un único archivo, con la ayuda de tags (etiquetas). Es adecuado tanto para imágenes en raster como para imágenes en vector.
+  Es un formato de archivo de imagen flexible que se utiliza para manejar imágenes y datos dentro de un único archivo, con la ayuda de tags (etiquetas). Es adecuado tanto para imágenes en raster como para imágenes en vector.
 
 - **WebP**: 
-  - Desarrollado por Google, es un formato moderno que proporciona compresión sin pérdida y con pérdida para imágenes en la web. WebP permite una compresión mucho más eficiente que PNG o JPEG, lo que resulta en imágenes de menor tamaño que cargan más rápido.
+  Desarrollado por Google, es un formato moderno que proporciona compresión sin pérdida y con pérdida para imágenes en la web. WebP permite una compresión mucho más eficiente que PNG o JPEG, lo que resulta en imágenes de menor tamaño que cargan más rápido.
 
