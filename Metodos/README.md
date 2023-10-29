@@ -25,6 +25,8 @@ La resolución de una imagen se refiere a la cantidad de píxeles que contiene. 
 ### Como cambiar la resolución en OpenCv
 Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el siguiente código [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cambiar%20resolucion.py)
 
+- **Ejemplo**
+![Imagen de Ejemplo](https://www.ejemplo.com/imagen.jpg)
 
 
 ## Formatos de archivos de imagen compatibles
