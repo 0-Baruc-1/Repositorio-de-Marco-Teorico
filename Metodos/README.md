@@ -27,8 +27,11 @@ Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el sigu
 
 - **Ejemplo**
 Imagen con resolución de 512x512
+
 ![Imagen de Ejemplo](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png)
+
 Imagen con resolución de 624x624
+
 ![Imagen de Ejemplo](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_redimensionada.png)
 
 
