@@ -38,7 +38,6 @@ Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el sigu
   </tr>
 </table>
 
-
 ## Formatos de archivos de imagen compatibles
 
 OpenCV es compatible con varios formatos de imagen comunes. Algunos formatos requieren bibliotecas auxiliares de terceros para su soporte. Además, la versión 3.0 de OpenCV incluye un controlador para formatos respaldados por la Biblioteca de Abstracción de Datos Geográficos (GDAL), aunque su compatibilidad en Windows aún no ha sido ampliamente probada. En sistemas operativos como Windows y OS X, los códecs que vienen con OpenCV se utilizan de manera predeterminada, mientras que Linux busca códecs instalados en el sistema.
