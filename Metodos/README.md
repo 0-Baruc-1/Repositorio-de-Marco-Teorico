@@ -65,7 +65,7 @@ El proceso de rotación se puede dividir en los siguientes pasos:
 
 5. **Creación de la Imagen Rotada:** Se crea una nueva imagen que contiene los píxeles resultantes del proceso de rotación.
 
-
+Para poder hacer la rotación de una imagen podemos utilizar el siguiente código de [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Transformaci%C3%B3n%20de%20rotaci%C3%B3n.py)
 
 
 - **Ejemplo**:
