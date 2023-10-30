@@ -1,5 +1,3 @@
-# Segmentacion-de-heridas
-Tesis segmentación y estimación de heridas crónicas con procesamiento de imágenes usando métodos tradicionales
 # Marco teórico
 
 ## Pixel:
@@ -22,8 +20,45 @@ Para cargar una imagen en OpenCV en Python, podemos utilizar el siguiente códig
 ## Resolución: 
 La resolución de una imagen se refiere a la cantidad de píxeles que contiene. Una imagen de alta resolución tiene más píxeles y, por lo tanto, puede mostrar detalles más finos que una imagen de baja resolución.
 
-### Como cambiar la resolución
-Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el siguiente código de [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cambiar%20resolucion.py)
+### Transformación de escala para cambiar la resolución
+
+La transformación de escala es una técnica fundamental en el procesamiento de imágenes que permite cambiar el tamaño de una imagen, ya sea para hacerla más grande (ampliación) o más pequeña (reducción). Esta operación es comúnmente utilizada para adaptar imágenes a diferentes tamaños de visualización, ajustar la resolución o preparar datos para análisis y procesamiento.
+
+### Interpolación en la Transformación de Escala
+
+La transformación de escala implica ajustar las coordenadas de los píxeles en la imagen original para que se ajusten a las nuevas dimensiones. Esto a menudo implica la necesidad de calcular valores de píxeles en coordenadas no enteras. Para hacerlo, se utiliza la técnica de interpolación, que estima los valores de píxeles intermedios en función de los valores de píxeles conocidos.
+
+Existen diferentes métodos de interpolación, siendo los más comunes:
+
+- **Interpolación Nearest-Neighbor:** Este método asigna a cada píxel en la imagen redimensionada el valor del píxel más cercano en la imagen original. Es el método más simple pero puede producir resultados pixelados.
+
+- **Interpolación Bilineal:** Este método calcula el valor de un píxel intermedio como una combinación ponderada de los valores de los píxeles vecinos en la imagen original. Produce resultados más suaves que la interpolación Nearest-Neighbor.
+
+- **Interpolación Bicúbica:** Este método utiliza una función cúbica para calcular valores de píxeles intermedios, lo que resulta en una suavidad aún mayor en la imagen redimensionada. Es útil para aplicaciones que requieren una alta calidad de interpolación.
+
+### Proceso de Escala
+
+El proceso de escala se puede dividir en los siguientes pasos:
+
+1. **Definir la Nueva Resolución:** Se especifican las dimensiones deseadas de la imagen redimensionada, es decir, el nuevo ancho y alto.
+
+2. **Calcular la Relación de Escala:** Se calcula la relación entre la nueva resolución y la resolución original. Esta relación determina cómo se estirarán o comprimirán los píxeles en la imagen.
+
+3. **Aplicar la Interpolación:** Para cada píxel en la imagen redimensionada, se calculan sus nuevas coordenadas en la imagen original utilizando la relación de escala. Luego, se utiliza la técnica de interpolación elegida para calcular el valor del píxel en las coordenadas no enteras.
+
+4. **Creación de la Imagen Redimensionada:** Se crea una nueva imagen que contiene los píxeles resultantes del proceso de escala.
+Para poder cambiar la resolución de una imagen con OpenCV, podemos usar el siguiente código de [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Cambiar%20resolucion.py). Lo cual queda de la siguiente manera:
+
+<table>
+  <tr>
+    <td align="center">Imagen con resolución de 512x512</td>
+    <td align="center">Imagen con resolución cambiada a 624x624</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="512"></td>
+    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_redimensionada.png" alt="Imagen de Ejemplo" width="624"></td>
+  </tr>
+</table>
 
 ### Como calcular la densidad de pixeles
 
@@ -78,18 +113,7 @@ Aquí se puede ver como se aplica en la siguiente imagen:
   </tr>
 </table>
 
-- **Ejemplo**:
 
-<table>
-  <tr>
-    <td align="center">Imagen con resolución de 512x512</td>
-    <td align="center">Imagen con resolución cambiada a 624x624</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="512"></td>
-    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_redimensionada.png" alt="Imagen de Ejemplo" width="624"></td>
-  </tr>
-</table>
 
 ## Formatos de archivos de imagen compatibles
 
