@@ -34,6 +34,40 @@ Dimensiones de la imagen: 512x512
 Número total de píxeles: 262144 píxeles
 Densidad de píxeles: 1.00 píxeles por unidad de área
 
+## Transformación de Rotación en Procesamiento de Imágenes
+
+La transformación de rotación es una técnica fundamental en el procesamiento de imágenes que permite girar una imagen alrededor de un punto de referencia. Esta operación es útil para corregir la orientación de una imagen, cambiar su perspectiva o realizar análisis en ángulos específicos. En el procesamiento de imágenes, la rotación se realiza utilizando una matriz de transformación que aplica una serie de operaciones geométricas a los píxeles de la imagen.
+
+### Matriz de Rotación
+
+La matriz de rotación es el corazón de la transformación de rotación. Se utiliza para calcular las nuevas coordenadas de los píxeles de la imagen rotada en función de las coordenadas originales y el ángulo de rotación. La matriz tiene la siguiente forma general:
+
+```
+| cos(θ)  -sin(θ) |
+| sin(θ)   cos(θ) |
+```
+
+Donde:
+- θ es el ángulo de rotación en sentido antihorario.
+- cos(θ) y sin(θ) son las funciones trigonométricas cuyo valor depende del ángulo θ.
+
+### Proceso de Rotación
+
+El proceso de rotación se puede dividir en los siguientes pasos:
+
+1. **Selección del Punto de Rotación:** Se elige un punto central alrededor del cual se realizará la rotación. Este punto puede estar en cualquier lugar de la imagen, pero es común utilizar el centro de la imagen.
+
+2. **Cálculo de la Matriz de Rotación:** Se calcula la matriz de rotación utilizando la fórmula mencionada anteriormente. La matriz se construye en función del ángulo de rotación θ.
+
+3. **Aplicación de la Matriz de Rotación:** Para cada píxel en la imagen original, se calculan sus nuevas coordenadas en la imagen rotada utilizando la matriz de rotación. Esto se hace mediante una multiplicación de matrices.
+
+4. **Interpolación de Píxeles:** Debido a que las coordenadas resultantes de la rotación pueden no ser números enteros, se utiliza la interpolación para calcular el valor de píxel en las coordenadas no enteras. La interpolación puede ser bilineal o basada en otros métodos, y su objetivo es suavizar la imagen rotada.
+
+5. **Creación de la Imagen Rotada:** Se crea una nueva imagen que contiene los píxeles resultantes del proceso de rotación.
+
+
+
+
 - **Ejemplo**:
 
 <table>
