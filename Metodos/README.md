@@ -76,7 +76,7 @@ Aquí se puede ver como se aplica en la siguiente imagen:
   </tr>
   <tr>
     <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="512"></td>
-    <td align="center"><img src="" alt="Imagen de Ejemplo" width="624"></td>
+    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_rotada.png" alt="Imagen de Ejemplo" width="624"></td>
   </tr>
 </table>
 
