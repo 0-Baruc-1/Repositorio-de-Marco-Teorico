@@ -65,8 +65,20 @@ El proceso de rotación se puede dividir en los siguientes pasos:
 
 5. **Creación de la Imagen Rotada:** Se crea una nueva imagen que contiene los píxeles resultantes del proceso de rotación.
 
-Para poder hacer la rotación de una imagen podemos utilizar el siguiente código de [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Transformaci%C3%B3n%20de%20rotaci%C3%B3n.py)
+Para poder hacer la rotación de una imagen podemos utilizar el siguiente código de [aquí](https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/Transformaci%C3%B3n%20de%20rotaci%C3%B3n.py).
 
+Aquí se puede ver como se aplica en la siguiente imagen:
+
+<table>
+  <tr>
+    <td align="center">Imagen con resolución de 512x512</td>
+    <td align="center">Imagen con resolución cambiada a 624x624</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="512"></td>
+    <td align="center"><img src="" alt="Imagen de Ejemplo" width="624"></td>
+  </tr>
+</table>
 
 - **Ejemplo**:
 
