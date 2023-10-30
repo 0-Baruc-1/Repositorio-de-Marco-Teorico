@@ -75,8 +75,8 @@ Aquí se puede ver como se aplica en la siguiente imagen:
     <td align="center">Imagen con resolución cambiada a 624x624</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="100"></td>
-    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_rotada.png" alt="Imagen de Ejemplo" width="100"></td>
+    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena.png" alt="Imagen de Ejemplo" width="200"></td>
+    <td align="center"><img src="https://github.com/0-Baruc-1/Segmentacion-de-heridas/blob/main/Metodos/lena_rotada.png" alt="Imagen de Ejemplo" width="200"></td>
   </tr>
 </table>
 
