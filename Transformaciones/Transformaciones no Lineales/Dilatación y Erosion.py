@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-ruta_imagen = R"C:\Users\Kevin\Desktop\lena.png"
+ruta_imagen = R"C:\Users\Kevin\Documents\train\mejor\best_mask_for_0111.png"
 ruta_guardado_erosion = R"C:\Users\Kevin\Desktop\lena_erosionada.png"
 ruta_guardado_dilatacion = R"C:\Users\Kevin\Desktop\lena_dilatada.png"
 
@@ -13,7 +13,7 @@ if imagen is None:
     print("No se pudo cargar la imagen. Verifica la ruta o el formato de archivo.")
 else:
     # Definir el kernel o elemento estructurante para los filtros morfológicos
-    kernel = np.ones((5,5), np.uint8)
+    kernel = np.ones((10,10), np.uint8)
 
     # Aplicar erosión
     imagen_erosionada = cv2.erode(imagen, kernel, iterations=1)
