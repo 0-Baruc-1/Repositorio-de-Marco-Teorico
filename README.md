@@ -1,7 +1,3 @@
-# Segmentacion-de-heridas
-Tesis segmentación y estimación de heridas crónicas con procesamiento de imágenes usando métodos tradicionales
-# Bibliotecas que se utilizaran:
-
 ## Biblioteca `os`
 
 La biblioteca `os` (abreviatura de "operating system") es un módulo en Python que proporciona una interfaz para interactuar con el sistema operativo subyacente. Permite realizar operaciones como navegación de directorios, manipulación de rutas de archivos, acceso a variables de entorno y más.
