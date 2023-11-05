@@ -1,32 +1,32 @@
 import cv2
+import numpy as np
+import matplotlib.pyplot as plt
 
-# Cargar la imagen
-ruta_imagen = R"C:\Users\Kevin\Desktop\lena.png"
-imagen = cv2.imread(ruta_imagen)
+# Cargar la imagen original
+imagen = cv2.imread(R"C:\Users\Kevin\Desktop\lena.png")
 
-# Verificar si la carga de la imagen fue exitosa
-if imagen is None:
-    print("No se pudo cargar la imagen. Verifica la ruta o el formato de archivo.")
-else:
-    # Obtener las dimensiones de la imagen
-    alto, ancho = imagen.shape[:2]
+# Convertir la imagen a escala de grises
+imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
 
-    # Calcular el área de la imagen (en píxeles cuadrados)
-    area_imagen = alto * ancho
+# Aumentar la intensidad de la imagen en escala de grises
+intensidad_aumentada = cv2.add(imagen_gris, 100)  # Aumenta la intensidad en 50 unidades
 
-    # Calcular el número total de píxeles
-    num_pixeles = alto * ancho
+# Disminuir la intensidad de la imagen en escala de grises
+intensidad_disminuida = cv2.subtract(imagen_gris, 100)  # Disminuye la intensidad en 50 unidades
 
-    # Calcular la densidad de píxeles
-    densidad_pixeles = num_pixeles / area_imagen
+# Mostrar las imágenes
+plt.figure(figsize=(10, 7))
 
-    # Mostrar la información
-    print(f"Dimensiones de la imagen: {ancho}x{alto}")
-    print(f"Área de la imagen: {area_imagen} píxeles cuadrados")
-    print(f"Número total de píxeles: {num_pixeles} píxeles")
-    print(f"Densidad de píxeles: {densidad_pixeles:.2f} píxeles por unidad de área")
+plt.subplot(1, 3, 1)
+plt.imshow(imagen_gris, cmap='gray')
+plt.title('Imagen Original en Escala de Grises')
 
-    # Mostrar la imagen
-    cv2.imshow('Imagen', imagen)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+plt.subplot(1, 3, 2)
+plt.imshow(intensidad_aumentada, cmap='gray')
+plt.title('Intensidad Aumentada')
+
+plt.subplot(1, 3, 3)
+plt.imshow(intensidad_disminuida, cmap='gray')
+plt.title('Intensidad Disminuida')
+
+plt.show()
